@@ -1,0 +1,31 @@
+---
+title: AstralDB
+description: Yet another vector database.
+template: splash
+hero:
+  tagline: Fast, lightweight & easy to use. Made in python, built for python.
+  image:
+    file: ../../assets/rocket.svg
+  actions:
+    - text: Get started
+      link: /astralwebpage/setup/installation
+      icon: right-arrow
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+
+<CardGrid stagger>
+	<Card title="Lightweight" icon="up-caret">
+		Incredibly small footprint. Made for when everything else is *overkill* 
+	</Card>
+	<Card title="Fast" icon="rocket">
+		Faster than your last DB. Store and retrieve vectors in *milliseconds*.
+	</Card>
+	<Card title="Easy to use" icon="seti:python">
+		Made for python, in python. Use the python client, or your favorite method via http endpoints.
+	</Card>
+	<Card title="Read the docs" icon="open-book">
+		Learn more in [the Docs](usage/basic).
+	</Card>
+</CardGrid>
