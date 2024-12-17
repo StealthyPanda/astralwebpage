@@ -9,7 +9,10 @@ There are 2 main ways to interact with 🚀✨AstralDB; python client and raw AP
 
 ## Client
 
-The python client is a WIP, and will soon be released for use.
+When using the python client, there is no need to run the server using `astral` command.
+Learn more about the [python client here](/astralwebpage/usage/pythonclient).
+
+
 
 ## Endpoints
 

@@ -21,6 +21,7 @@ export default defineConfig({
 						{ label: 'Starting', slug: 'usage/basic' },
 						{ label: 'Concepts', slug: 'usage/concepts' },
 						{ label: 'Clients & Endpoints', slug: 'usage/interaction' },
+						{ label: 'Python', slug: 'usage/pythonclient' },
 					]
 				},
 			],
